@@ -8,4 +8,3 @@ def test_cart_button(browser):
     browser.get(link)
     button = browser.find_elements(By.CLASS_NAME, 'btn-add-to-basket')
     assert button, 'Кнопка не обнаружена'
-    time.sleep(2)
